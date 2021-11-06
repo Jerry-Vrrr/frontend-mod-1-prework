@@ -21,7 +21,8 @@ An example in daily like might be:
 `Else` drink tea.
 
 An example on the web might be:
-'A website for a distillery or brewery.'
+
+<b>A website for a distillery or brewery</b>
 
 -You are given a prompt to <b>Enter your DOB</b>.
 
