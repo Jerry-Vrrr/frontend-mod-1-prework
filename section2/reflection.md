@@ -10,7 +10,7 @@
 
 #### 3. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.
 
-`if, if else and else` statements that can sort data to find the best place to categorize or send it.
+`if, else if and else` statements that can sort data to find the best place to categorize or send it.
 
 An example in daily like might be:
 
