@@ -22,7 +22,7 @@ An example in daily like might be:
 
 An example on the web might be:
 
-<b>A website for a distillery or brewery</b>
+<u>A website for a distillery or brewery</u>
 
 -You are given a prompt to <b>Enter your DOB</b>.
 
