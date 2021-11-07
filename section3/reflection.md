@@ -20,7 +20,7 @@
 
 5. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
 
-* A loop is a more effective method of repeating a certain task a certain number of times.
+### A loop is a more effective method of repeating a certain task a certain number of times.
 
 * Loops can be used in conjunction with arrays to perform an action different values of data stored in an array.
 
