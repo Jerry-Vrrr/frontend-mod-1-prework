@@ -28,9 +28,9 @@
 
 6. If you had to teach a 5 year old about loops, how would you explain it?
 
-..*I would explain it using an everyday repeated action, like brushing your teeth.
+### I would explain it using an everyday repeated action, like brushing your teeth.
 #### <b>I would ask:<b/>
-* How do you brush your teeth and who taught you how?
+  * How do you brush your teeth and who taught <i>you</i> how?
 * Tell the child I don't know how and ask them to teach me.
 * Have them list the steps and number of times you brush each area.
 * I would explain that like me, a computer doesn't know how to do simple repetitive things.
