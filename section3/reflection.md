@@ -22,22 +22,22 @@
 
 * A loop is a more effective method of repeating a certain task a certain number of times.
 
-1. Loops can be used in conjunction with arrays to perform an action different values of data stored in an array.
+* Loops can be used in conjunction with arrays to perform an action different values of data stored in an array.
 
-1. Loops used without an array would be used for simpler repeated actions.
+* Loops used without an array would be used for simpler repeated actions.
 
 6. If you had to teach a 5 year old about loops, how would you explain it?
 
 ..*I would explain it using an everyday repeated action, like brushing your teeth.
 #### <b>I would ask:<b/>
-1. How do you brush your teeth and who taught you how?
-2. Tell the child I don't know how and ask them to teach me.
-3. Have them list the steps and number of times you brush each area.
-4. I would explain that like me, a computer doesn't know how to do simple repetitive things.
-5. If we don't tell the computer how to brush it's teeth, it can't do it.
-6. If we don't tell it when to stop, it will brush it's teeth forever and ever.
-7. If we don't tell it to brush for long enough, the computer will have dirty teeth and stinky breath.
-8. Wait for giggles to stop and then explain that we use loops to tell the computer how long is should brush it's teeth. And other more computery things.
+* How do you brush your teeth and who taught you how?
+* Tell the child I don't know how and ask them to teach me.
+* Have them list the steps and number of times you brush each area.
+* I would explain that like me, a computer doesn't know how to do simple repetitive things.
+* If we don't tell the computer how to brush it's teeth, it can't do it.
+* If we don't tell it when to stop, it will brush it's teeth forever and ever.
+* If we don't tell it to brush for long enough, the computer will have dirty teeth and stinky breath.
+* Wait for giggles to stop and then explain that we use loops to tell the computer how long is should brush it's teeth. And other more computery things.
 
 7. What questions do you still have about Arrays and loops?
 
