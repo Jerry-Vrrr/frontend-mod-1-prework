@@ -37,7 +37,7 @@ console.log(animals);
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 //var newLength = animals.push( "Lemur" );
 
-animals.splice(3, 0, "Lemur")
+animals.splice(3, 0, "Lemur");
 console.log(animals);
 
 //1 - index position to start [3]
