@@ -22,7 +22,7 @@ console.log('Welcome to Turing!');
 
 // YOU DO: Write code below to log `99 bottles of pop on the wall...`:
 var numberOfBottles = 99;
-var location = "on the wall";
+var location = "on the wall...";
 var object = "bottles of pop";
 
 console.log(`${numberOfBottles} ${object} ${location} `);
