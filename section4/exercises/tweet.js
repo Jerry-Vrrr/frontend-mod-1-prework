@@ -19,8 +19,8 @@ constructor(author, content, timeStamp, numberOfLikes, comments) {
 
 };
 
-var content = new Tweet("Lizzo", "Spooky Booty", "Oct, 31 11:11 PM", 190000, 665);
+var content = new Tweet("Lizzo", "Spooky flute solo", "Oct, 31 11:11 PM", 190000, 665);
 console.log(content);
 
-var content = new Tweet("Lizzo", "Dia de los Twerkos", "nov, 02 10:10 PM", 56000, 522);
+var content = new Tweet("Lizzo", "Hard day at twerk", "nov, 02 10:10 PM", 56000, 925);
 console.log(content);

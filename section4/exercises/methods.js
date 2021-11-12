@@ -18,12 +18,13 @@ var lunchOrder = {
   beverage: "iced tea",
   tableNumber: 47,
   sendToKitchen: function(){
-    console.log( "To-go order")
+    console.log( "Your order is being prepared!")
+    console.log(lunchOrder)
   },
-  printOrder: function() {
-  console.log(lunchOrder)
+  orderComplete: function() {
+  console.log("Your order is ready for pickup!")
 }
 };
 
 lunchOrder.sendToKitchen();
-lunchOrder.printOrder();
+lunchOrder.orderComplete();

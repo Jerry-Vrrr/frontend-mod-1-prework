@@ -62,7 +62,8 @@ console.log(vegan);
 
 
 
-// Need to figure out how to choose only 1 item from the toppings array...
+// Wanted the ability to choose 1 item at a time from the addTopping array,
+//but could not make it function correctly...
 
   // ADD CODE
 
