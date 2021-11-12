@@ -108,13 +108,13 @@ console.log(isHungry && finishedHomework);
 // Determine if the user is hungry or has completed their homework
 console.log(isHungry || finishedHomework);
 
-console.log("part 3");
+console.log("-------------");
 
 var lovesToPlay = true;
 var lovesDogPark = false;
 var lovesTreats = true;
 var age = 1;
-
+var isPuppy = age < 2;
 // YOU DO:
 // Determine if the dog loves to play and loves treats
 console.log(lovesToPlay && lovesTreats);
