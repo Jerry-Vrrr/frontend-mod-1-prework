@@ -9,11 +9,11 @@ console.log(specialAbility);
 // Declare two variables - greeting AND catchphrase
 //   greeting should be assigned to a string that uses concatenation to include the heroName
 //   catchphrase should be assigned to a string that uses interpolation to include the specialAbility
-var greeting = "Coo coo cachoo, ";
-console.log(greeting + heroName);
+var greeting = "Coo coo cachoo," + heroName;
+console.log(greeting);
 
-var catchPhrase = "When crime is up, I get down and boogie with my";
-console.log(`${catchPhrase} ${specialAbility}!`);
+var catchPhrase = `When crime is up, I get down and boogie with my ${specialAbility}!`;
+console.log(catchPhrase);
 
 // Declare two variables - power AND energy - set to integers
 var power = 9;
@@ -56,22 +56,30 @@ console.log(sideKicks);
 var announcement = 'Never fear, the Courageous Curly Bracket is here!';
 var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.';
 
-function assessSituation() {
-  if ((dangerLevel >=10) && (dangerLevel< 50)) {
-    console.log(announcement)
+function assessSituation(dangerLevel, saveTheDay, badExcuse) {
+  // if ((dangerLevel >=10) && (dangerLevel< 50)) {
+  //   console.log(announcement)
+  // } else if (dangerLevel < 10) {
+  //   console.log("Meh. Hard pass.")
+  // } else if (dangerLevel > 50) {
+  // console.log(excuse)
+  // }
+  if (dangerLevel > 50) {
+    console.log(badExcuse)
   } else if (dangerLevel < 10) {
     console.log("Meh. Hard pass.")
-} else if (dangerLevel > 50) {
-  console.log(excuse)
-}
+  } else {
+    console.log(saveTheDay)
+  }
+
 };
 
-var dangerLevel = 99
-assessSituation()
-var dangerLevel = 21
-assessSituation()
-var dangerLevel = 3
-assessSituation()
+//var dangerLevel = 99
+assessSituation(99,"Saving the day!", "I need to wash my hair tonight." )
+//var dangerLevel = 21
+assessSituation(21, announcement, excuse)
+//var dangerLevel = 3
+assessSituation(3, announcement, excuse)
 // Your function should include an if/else statement that meets the following criteria
 //   - Danger levels that are above 50 are too scary for your hero. Any danger level that is above 50 should result in printing the badExcuse to the console
 //   - Anything dangerLevel that is between 10 and 50 should result in printing the saveTheDay string to the console
@@ -101,35 +109,41 @@ var scaryMonster = {
     number: 7,
     street: "Quatch Quarry lane",
     state: "Washington",
-    zip: 12347
+    zip: 12347,
   }
-
 }
 console.log(scaryMonster);
-// Create a new class called SuperHero
-// - Your class should have the following DYNAMIC values
-//   - name
-//   - superpower
-//   - age
-// - Your class should have the following STATIC values
-//   - archNemesis, assigned to "The Syntax Error"
-//   - powerLevel = 100
-//   - energyLevel = 50
+Create a new class called SuperHero
+- Your class should have the following DYNAMIC values
+  - name
+  - superpower
+  - age
+- Your class should have the following STATIC values
+  - archNemesis, assigned to "The Syntax Error"
+  - powerLevel = 100
+  - energyLevel = 50
 class SuperHero {
-  constructor(name, superpower, age) {
-    this.sayName = name;
+  constructor(name, superpower, age,) {
+    this.name = name
     this.superpower = superpower
     this.age = age
     this.archNemesis = "The Syntax Error"
     this.powerLevel = 100
     this.energyLevel = 50
-
   }
 
-}
-var maximizeEnergy = (energyLevel = 1000)
-var gainPower = (energyLevel * 2)
 
+
+sayName(){
+  console.log(this.name);
+  }
+maximizeEnergy(){
+  console.log(this.energyLevel = 1000);
+  }
+gainPower(number){
+console.log(this.powerLevel += number);
+  }
+}
 // - Create the following class methods
 //   - sayName, should print the hero's name to the console
 
@@ -138,14 +152,18 @@ var gainPower = (energyLevel * 2)
 //   - gainPower, should take an argument of a number and INCREASE the powerLevel by that number
 //var maximizeEnergy = (energyLevel = 1000);
 //var gainPower = (energyLevel * 2)
-console.log(maximizeEnergy);
-console.log(gainPower);
+// console.log(maximizeEnergy);
+// console.log(gainPower);
 // - Create 2 instances of your SuperHero class
-var soop = new SuperHero("Crybaby", "literal heart melting tears", .5 )
-console.log(soop);
-var soop = new SuperHero("The Swaddler", "Magic Blanket", 32)
-console.log(soop);
-
+var soop1 = new SuperHero("Crybaby", "literal heart melting tears", .5 );
+soop1.sayName();
+soop1.maximizeEnergy();
+console.log(soop1);
+var soop2 = new SuperHero("The Swaddler", "Magic Blanket", 32);
+//console.log(soop);
+soop2.sayName();
+soop2.gainPower(9);
+console.log(soop2);
 // Reflection
 // What parts were most difficult about this exerise?
 // Recalling newly acquired skills. I stumbed a bit on some of the commands. Took longer than expected.
